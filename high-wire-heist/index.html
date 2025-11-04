@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Wire Heist - Complete Analysis</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .section { margin-bottom: 40px; }
+        .section-title { 
+            font-size: 1.8em; 
+            color: #667eea; 
+            border-bottom: 2px solid #667eea; 
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .overview-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .overview-label { font-weight: bold; color: #666; }
+        .scene {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .scene-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .scene-number { font-size: 1.3em; font-weight: bold; color: #667eea; }
+        .scene-meta { color: #666; font-size: 0.9em; }
+        .tag {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        .char-tag { background: #764ba2; }
+        .theme-tag { background: #f093fb; }
+        .prop-tag { background: #17a2b8; }
+        .location-detail { 
+            background: #f8f9fa; 
+            padding: 10px; 
+            border-left: 3px solid #667eea; 
+            font-style: italic; 
+        }
+        .visual-mood { 
+            background: #e7f3ff; 
+            padding: 10px; 
+            border-left: 3px solid #007bff; 
+            font-weight: 500;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 20px 0; 
+        }
+        th { 
+            background: #667eea; 
+            color: white; 
+            padding: 10px; 
+            text-align: left; 
+        }
+        td { 
+            padding: 10px; 
+            border-bottom: 1px solid #ddd; 
+        }
+        tr:hover { background: #f8f9fa; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>High Wire Heist</h1>
+        <p>Complete Script Analysis</p>
+        <p style="font-size: 0.9em;">Generated: November 04, 2025 at 06:51 PM</p>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Script Overview</h2>
+        <div class="overview-grid">
+            <div class="overview-item">
+                <div class="overview-label">Genre</div>
+                <div>Heist</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Total Scenes</div>
+                <div>18</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Time Period</div>
+                <div>Present day</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Setting</div>
+                <div>Urban cityscape</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Tone</div>
+                <div>Light-hearted, tense, and suspenseful</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Total Pages</div>
+                <div>9.5</div>
+            </div>
+        </div>
+        <div style="margin-top: 20px;">
+            <strong>Central Conflict:</strong><br>
+            <p>A group of thieves attempt to steal a valuable artifact during a gala event</p>
+        </div>
+        <div>
+            <strong>Main Themes:</strong><br>
+            <span class="tag theme-tag">Friendship</span><span class="tag theme-tag">Stealth</span><span class="tag theme-tag">Heritage Preservation</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Characters</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Character</th>
+                    <th>Total Scenes</th>
+                    <th>Scene Numbers</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td><strong>CASEY</strong></td>
+                    <td>12</td>
+                    <td>2, 3, 4, 5, 7, 9, 10, 11, 13, 14...</td>
+                </tr>
+
+                <tr>
+                    <td><strong>MILO</strong></td>
+                    <td>12</td>
+                    <td>2, 3, 4, 5, 7, 9, 10, 11, 13, 14...</td>
+                </tr>
+
+                <tr>
+                    <td><strong>BEX</strong></td>
+                    <td>11</td>
+                    <td>3, 4, 5, 7, 9, 10, 11, 13, 14, 15...</td>
+                </tr>
+
+                <tr>
+                    <td><strong>MRS. KELLY</strong></td>
+                    <td>2</td>
+                    <td>2, 16</td>
+                </tr>
+
+                <tr>
+                    <td><strong>JUNE</strong></td>
+                    <td>2</td>
+                    <td>12, 15</td>
+                </tr>
+
+                <tr>
+                    <td><strong>AUCTIONEER</strong></td>
+                    <td>1</td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <td><strong>KID</strong></td>
+                    <td>1</td>
+                    <td>8</td>
+                </tr>
+
+                <tr>
+                    <td><strong>DAD</strong></td>
+                    <td>1</td>
+                    <td>8</td>
+                </tr>
+
+                <tr>
+                    <td><strong>ANALYST</strong></td>
+                    <td>1</td>
+                    <td>12</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Complete Scene Analysis</h2>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 1</div>
+                <div class="scene-meta">
+                    📄 Pages ~0.2-0.3 • 🕐 DUSK
+                </div>
+            </div>
+            <div><strong>Location:</strong> EXT. City Skyline – DUSK</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Neon lights hum to life as daylight slips away, creating a silver thread-like effect against the backdrop of urban architecture</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">High-definition visuals highlighting nighttime cityscapes and urban landscapes</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> EXT. City Skyline – DUSK<br>
+                    🎭 <strong>Characters:</strong> None<br>
+                    🎞️ <strong>Themes:</strong> Urban landscapes, nighttime cityscapes<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The setting for the upcoming heist is introduced through an establishing shot</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>Setting the stage for the upcoming story events</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'No specific dramatic tension is present in this scene', 'irony': 'None', 'foreshadowing': 'The cable car substation can be considered a hint of the heist location', 'conflict': 'None'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Urban landscapes, nighttime cityscapes</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 2</div>
+                <div class="scene-meta">
+                    📄 Pages ~0.5-1.0 • 🕐 DUSK
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. Laundrette – DUSK</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">The laundrette is dimly lit with yellowish incandescent lights, worn wooden furniture, and clothes hanging on lines around the room. A hand-lettered sign hangs above the washers stating 'NO DYE IN WASHERS'.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">The visual style is gritty realism with a touch of humor.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. Laundrette – DUSK<br>
+                    🎭 <strong>Characters:</strong> MRS. KELLY, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> microdrone (used to gather surveillance footage for the heist)<br>
+                    🎞️ <strong>Themes:</strong> Friendship, Stealth<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>Casey and Milo prepare for the heist at a laundrette while engaging with Mrs. Kelly.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene serves to illustrate Casey and Milo's teamwork and lighthearted dynamic while providing a glimpse into their preparations for the heist.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': "The tension stems from the impending heist and Milo's apparent stress about its timeline.", 'irony': 'There is no apparent irony in this scene.', 'foreshadowing': "Casey's use of a microdrone suggests that technology will play a crucial role in their heist.", 'conflict': "The internal conflict lies with Milo's stress about meeting the deadline, while the external conflict is evading detection during the heist."}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">MRS. KELLY</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Friendship</span><span class="tag theme-tag">Stealth</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">{'prop_name': 'microdrone', 'prop_detail': 'used to gather surveillance footage for the heist'}</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 3</div>
+                <div class="scene-meta">
+                    📄 Pages ~1.2-1.5 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> EXT. Cable Car Station – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">The location is urban and at night, with a retrofit modern touch and an atmosphere of excitement due to the gala event.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">High-definition visuals highlighting the contrast between old architecture and modern updates, with a mood of anticipation and slight danger.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> EXT. Cable Car Station – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> Posters for the Centennial Gala (Advertising the city gala event)<br>
+                    🎞️ <strong>Themes:</strong> Friendship, Stealth<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The team discovers an unguarded area for their heist during the city gala event.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene sets up the opportunity for the group to execute their heist during the city gala event.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': "The tension arises from the group's awareness of a blank spot in their security map, which could potentially be a trap.", 'irony': '', 'foreshadowing': "The group's optimism foreshadows potential complications during the heist.", 'conflict': 'Internal conflict - the group weighs the risk of a possible trap against the opportunity for a successful heist.'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Friendship</span><span class="tag theme-tag">Stealth</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">{'prop_name': 'Posters for the Centennial Gala', 'prop_detail': 'Advertising the city gala event'}</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 4</div>
+                <div class="scene-meta">
+                    📄 Pages ~1.8-2.2 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. MAINTENANCE TUNNEL – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Darkness, distant city whine, and a LIDAR map projected against the wall</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Gritty, tense</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. MAINTENANCE TUNNEL – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> microdrone, suction handle<br>
+                    🎞️ <strong>Themes:</strong> Friendship, Stealth<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The team prepares for their high-wire heist by dividing tasks in a maintenance tunnel</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene advances the preparation stage of the heist</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'Tension is present due to the high-stakes nature of the heist and potential for discovery', 'irony': None, 'foreshadowing': 'No specific foreshadowing as this scene only establishes current events', 'conflict': "Internal conflict arises from the group's need to maintain secrecy and avoid detection"}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Friendship</span><span class="tag theme-tag">Stealth</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">microdrone, suction handle</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 5</div>
+                <div class="scene-meta">
+                    📄 Pages ~2.5-3.0 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. SUBSTATION SEVEN – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">A damp, humid environment with a deep, resonating station hum.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Cool tones with occasional glows from the bank of relays.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. SUBSTATION SEVEN – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> laser braid, small device, 'the case' (auction's gold-packed courier)<br>
+                    🎞️ <strong>Themes:</strong> teamwork, urgency<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>Preparation for the high-wire heist intensifies as team members divvy tasks and review their plan in an underground electrical substation.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene sets up the heist by dividing tasks among team members and emphasizing the urgency of the operation.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'The tension arises from the impending deadline for the heist.', 'irony': None, 'foreshadowing': "The team's plan for the heist and their respective roles are established.", 'conflict': 'Internal conflict between the characters as they discuss their roles.'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">teamwork</span><span class="tag theme-tag">urgency</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">laser braid, small device, 'the case' (auction's gold-packed courier)</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 6</div>
+                <div class="scene-meta">
+                    📄 Pages ~3.2-3.4 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> EXT. CABLE CAR LINE – CONTINUOUS – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Brightly lit cable car with glowing windows, carrying tuxedoed and gown-wearing guests, laughter, champagne; outside on the roof, a dark-clad Security Tech works at a junction box</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Contrasting settings: the luxurious gala interior versus the dark and focused exterior work</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> EXT. CABLE CAR LINE – CONTINUOUS – NIGHT<br>
+                    🎭 <strong>Characters:</strong> AUCTIONEER<br>
+                    🧰 <strong>Props:</strong> A sleek case containing a valuable artifact<br>
+                    🎞️ <strong>Themes:</strong> Stealth, Heritage Preservation<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The Auctioneer transports a valuable artifact on a cable car, while security measures are present to complicate the heist.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>Establishes the location and object of interest for the heist, as well as introducing potential obstacles</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'Tension builds as the Auctioneer carries the artifact through the crowded gala while the Security Tech works on the roof', 'irony': None, 'foreshadowing': 'The presence of the Security Tech foreshadows potential obstacles for the heist', 'conflict': "Internal conflict between the Auctioneer's pride in his artifact and the Security Tech's duty to protect it"}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">AUCTIONEER</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Stealth</span><span class="tag theme-tag">Heritage Preservation</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">A sleek case containing a valuable artifact</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 7</div>
+                <div class="scene-meta">
+                    📄 Pages ~4.3-5.8 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. SUBSTATION SEVEN – CONTINUOUS – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">The location is dimly lit, with a cold, metallic atmosphere and a tense mood</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Dark and gritty, with high-contrast lighting accentuating the team's focus</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. SUBSTATION SEVEN – CONTINUOUS – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> tablet, second case containing the signal harpoon, laser braid<br>
+                    🎞️ <strong>Themes:</strong> Risk-taking, Stealth<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The team steals a valuable artifact from a cable car but faces challenges due to weight sensors</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene marks a key confrontation in the heist, testing the team's ability to outsmart security measures</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'The tension stems from the potential discovery of their theft and the need to solve the weight sensor issue quickly', 'irony': None, 'foreshadowing': "The team's struggle with the weight sensor could hint at future complications as they continue the heist", 'conflict': 'Internal conflict as the team members work together to resolve the weight sensor problem'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Risk-taking</span><span class="tag theme-tag">Stealth</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">tablet</span><span class="tag prop-tag">second case containing the signal harpoon</span><span class="tag prop-tag">laser braid</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 8</div>
+                <div class="scene-meta">
+                    📄 Pages ~6.0-6.2 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. CABLE CAR – CONTINUOUS – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Crowded cable car with dim lighting, urban atmosphere, and mood of relaxation and family bonding</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Serene and playful color palette, soft focus on the characters and the blurring city below</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. CABLE CAR – CONTINUOUS – NIGHT<br>
+                    🎭 <strong>Characters:</strong> KID, DAD<br>
+                    🧰 <strong>Props:</strong> Cable car, soda, window<br>
+                    🎞️ <strong>Themes:</strong> Family bonds<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>A brief, casual moment between the protagonists outside of their heist roles</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene provides a brief respite from the tension of the heist and humanizes the protagonists outside their professional roles.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'Low, familial tension', 'irony': None, 'foreshadowing': None, 'conflict': 'None'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">KID</span><span class="tag char-tag">DAD</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Family bonds</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">Cable car, soda, window</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 9</div>
+                <div class="scene-meta">
+                    📄 Pages ~6.6-7.4 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. SUBSTATION SEVEN – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">The location is dimly lit, with a cold and industrial atmosphere.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">A mix of suspense and anticipation, characterized by shadows and strategic lighting.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. SUBSTATION SEVEN – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> The sleek case containing gold coins and the ceramic tile<br>
+                    🎞️ <strong>Themes:</strong> Risk-taking, Stealth<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The team prepares for their heist, uncovering the artifact and discussing their exit strategy.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene adds tension as the characters prepare for the heist and introduce a unique method of transportation that will aid in their escape.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'The tension comes from the potential complications on the cable line and the need to isolate it to avoid detection.', 'irony': None, 'foreshadowing': "Casey's careful handling of the tile may foreshadow its significance or delicate nature.", 'conflict': 'Internal conflict between the characters as they prepare for their heist and deal with potential obstacles.'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Risk-taking</span><span class="tag theme-tag">Stealth</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">The sleek case containing gold coins and the ceramic tile</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 10</div>
+                <div class="scene-meta">
+                    📄 Pages ~7.6-8.0 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. MAINTENANCE BAY – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">The setting is dimly lit, evoking a gritty and moody atmosphere</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Dark and tense</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. MAINTENANCE BAY – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> bolt cutter, artifact case, iron tram car<br>
+                    🎞️ <strong>Themes:</strong> Risk-taking, Stealth<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The protagonists prepare for their high-wire heist by cutting the chain to a hauntingly beautiful tram car and loading it with the artifact case.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene marks the preparation phase for the heist before its execution.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'Tension builds as the team prepares for the imminent heist', 'irony': None, 'foreshadowing': 'The potential challenges and risks of the high-wire heist are hinted at by their casual discussion about a ghost', 'conflict': 'Internal conflicts related to the upcoming heist'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Risk-taking</span><span class="tag theme-tag">Stealth</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">bolt cutter, artifact case, iron tram car</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 11</div>
+                <div class="scene-meta">
+                    📄 Pages ~8.2-8.5 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> EXT. HIGH WIRE – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Desolate, windy, testing their balance</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Tense and atmospheric with occasional flashes of light from nearby buildings</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> EXT. HIGH WIRE – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> maintenance tram, artifact case<br>
+                    🎞️ <strong>Themes:</strong> Risk-taking<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The high-wire heist begins, testing the characters' resolve</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene signals the beginning of the execution phase (Act 2) of their heist plan</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': "Tension arises from the characters' fear of detection by the helicopter", 'irony': None, 'foreshadowing': 'The storm approaching foreshadows potential complications for the heist', 'conflict': 'Internal conflict as characters grapple with their fear and the external threat posed by the helicopter'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Risk-taking</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">maintenance tram</span><span class="tag prop-tag">artifact case</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 12</div>
+                <div class="scene-meta">
+                    📄 Pages ~8.7-8.9 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. SECURITY OPERATIONS ROOM – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Brightly lit, focused atmosphere, with a sense of surveillance and security.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Cold, tense, and sharp-edged visual style.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. SECURITY OPERATIONS ROOM – NIGHT<br>
+                    🎭 <strong>Characters:</strong> JUNE, ANALYST<br>
+                    🧰 <strong>Props:</strong> Monitors, surveillance equipment<br>
+                    🎞️ <strong>Themes:</strong> Stealth, Heritage preservation, Risk-taking<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>Security forces investigate a potential threat to the artifact during transport.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>In this scene, June is taking precautions against potential threats to the security of the artifact during transport.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'High tension due to the potential security threat and the importance of the artifact.', 'irony': None, 'foreshadowing': 'The dead zone on the cable line may foreshadow an attempt at interception or sabotage.', 'conflict': 'An external conflict arises between the heist team and security forces.'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">JUNE</span><span class="tag char-tag">ANALYST</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Stealth</span><span class="tag theme-tag">Heritage preservation</span><span class="tag theme-tag">Risk-taking</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">Monitors, surveillance equipment</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 13</div>
+                <div class="scene-meta">
+                    📄 Pages ~9.5-10.6 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> EXT. HIGH WIRE – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Wet, dark, and tense environment</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Gritty, suspenseful</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> EXT. HIGH WIRE – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> grapnel gun, copper bar<br>
+                    🎞️ <strong>Themes:</strong> Risk-taking, Stealth<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The team faces unexpected challenges during their high-wire heist but manages to progress</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>Confrontation: The team overcomes challenges to progress with the heist</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'High tension due to the risky situation and time constraints', 'irony': None, 'foreshadowing': 'The challenges faced by the team hint at the complexity of the heist', 'conflict': 'Internal conflict: The team must work together under pressure'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Risk-taking</span><span class="tag theme-tag">Stealth</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">grapnel gun, copper bar</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 14</div>
+                <div class="scene-meta">
+                    📄 Pages ~11.0-11.7 • 🕐 NIGHT
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. OLD PRINTWORKS – NIGHT</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">A large, dark space with giant presses and a tin roof that rattles from rain. The atmosphere is dusty and eerie, reminiscent of ink and ghosts.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">The visual style is gritty and atmospheric, with dim lighting and floating dust particles creating a sense of mystery.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. OLD PRINTWORKS – NIGHT<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> Artifact case, bird tile<br>
+                    🎞️ <strong>Themes:</strong> Heritage Preservation<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The characters learn about the artifact's history, solidifying their decision to return it to its original location.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene provides context for the artifact, strengthening character motivations and furthering their commitment to their heist.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': "The tension in this scene arises from the characters' internal conflicts over where to return the stolen artifact.", 'irony': None, 'foreshadowing': 'Character motivations and conflicts are established in THIS scene, hinting at potential consequences for their decision.', 'conflict': 'Internal conflict'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Heritage Preservation</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">Artifact case, bird tile</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 15</div>
+                <div class="scene-meta">
+                    📄 Pages ~12.6-14.2 • 🕐 DAWN
+                </div>
+            </div>
+            <div><strong>Location:</strong> EXT. RIVER MOUTH WALL – PRE-DAWN</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Patched and worn, with a road nearby</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">A mix of mystery and tension, with rain adding to the atmosphere</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> EXT. RIVER MOUTH WALL – PRE-DAWN<br>
+                    🎭 <strong>Characters:</strong> JUNE, BEX, CASEY, MILO<br>
+                    🧰 <strong>Props:</strong> tile, mortar, umbrella<br>
+                    🎞️ <strong>Themes:</strong> Heritage preservation, Risk-taking<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>Team meets a city official who discovers their artifact but chooses not to interfere, offering a possible lead.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene introduces a city official and sets up a possible opportunity for the team's heist.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': "Tension arises from June's discovery of the artifact and her potential involvement", 'irony': None, 'foreshadowing': 'June mentions an unused power map pocket, which could be crucial for their heist', 'conflict': "Internal conflict between June's duty and personal connection"}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">JUNE</span><span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Heritage preservation</span><span class="tag theme-tag">Risk-taking</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">tile</span><span class="tag prop-tag">mortar</span><span class="tag prop-tag">umbrella</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 16</div>
+                <div class="scene-meta">
+                    📄 Pages ~14.5-15.0 • 🕐 DAWN
+                </div>
+            </div>
+            <div><strong>Location:</strong> INT. LAUNDRETTE – MORNING</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">The atmosphere is casual and familiar, with a hint of warmth from the sun and a homely feel from the laundry items.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Light-hearted, comical</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> INT. LAUNDRETTE – MORNING<br>
+                    🎭 <strong>Characters:</strong> BEX, CASEY, MRS. KELLY, MILO<br>
+                    🧰 <strong>Props:</strong> bagels, drone (Button)<br>
+                    🎞️ <strong>Themes:</strong> Friendship, Unusual bonds<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>Characters establish a casual bond outside their heist roles.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene provides a brief respite from the heist planning and establishes a casual bond between the characters outside their heist roles.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'Low', 'irony': None, 'foreshadowing': "The casual conversation hints at the team's unity and camaraderie, which will be essential during the high-wire heist.", 'conflict': 'None'}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Characters:</strong><br>
+                <span class="tag char-tag">BEX</span><span class="tag char-tag">CASEY</span><span class="tag char-tag">MRS. KELLY</span><span class="tag char-tag">MILO</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Friendship</span><span class="tag theme-tag">Unusual bonds</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">bagels</span><span class="tag prop-tag">drone (Button)</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 17</div>
+                <div class="scene-meta">
+                    📄 Pages ~15.0-15.1 • 🕐 DAY
+                </div>
+            </div>
+            <div><strong>Location:</strong> EXT. RIVER MOUTH WALL – SAME</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">Peaceful, open-air location near water, serene environment, simple surroundings</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Bright, calm, peaceful</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> EXT. RIVER MOUTH WALL – SAME<br>
+                    🎭 <strong>Characters:</strong> None<br>
+                    🧰 <strong>Props:</strong> Bird tile, daisy<br>
+                    🎞️ <strong>Themes:</strong> Appreciation for natural beauty, contrast between peace and chaos<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>Characters find a moment of tranquility amidst the heist preparations</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene serves as a brief respite from the intense heist preparations and action, highlighting the beauty of their surroundings.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'Low tension, contrasting the high-stakes heist', 'irony': 'None', 'foreshadowing': 'None', 'conflict': "Internal (characters' motivations and emotions)"}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Appreciation for natural beauty, contrast between peace and chaos</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">Bird tile, daisy</span>
+            </div>
+
+        </div>
+
+        <div class="scene">
+            <div class="scene-header">
+                <div class="scene-number">Scene 18</div>
+                <div class="scene-meta">
+                    📄 Pages ~15.1 • 🕐 DAY
+                </div>
+            </div>
+            <div><strong>Location:</strong> FADE OUT.</div>
+            <div style="margin: 15px 0;">
+                <strong>Location Details:</strong>
+                <div class="location-detail">The city is bathed in the soft glow of twilight, with the skyline silhouetted against a deep blue horizon. The underground tunnels are dimly lit and filled with a sense of urgency.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Visual Mood:</strong>
+                <div class="visual-mood">Cinematic mood: Gritty realism meets a hint of melancholy as the characters' journey reaches its conclusion.</div>
+            </div>
+            <div style="margin: 15px 0;">
+                <strong>Production Notes:</strong>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    📍 <strong>Location:</strong> FADE OUT.<br>
+                    🎭 <strong>Characters:</strong> None<br>
+                    🧰 <strong>Props:</strong> artifact case, high-wire equipment<br>
+                    🎞️ <strong>Themes:</strong> Friendship, Stealth, Heritage Preservation, Risk-taking<br>
+                </div>
+            </div>
+            <div style="margin: 15px 0;"><strong>Summary:</strong><br>The protagonists successfully complete their high-wire heist and escape with the stolen artifact, cementing their unbreakable bond.</div>
+
+            <div style="margin: 15px 0;"><strong>Narrative Purpose:</strong><br>This scene serves as the resolution to the central conflict by showing the successful execution of the heist and the protagonists' escape.</div>
+
+            <div style="margin: 15px 0;"><strong>Emotional Arc:</strong><br>{'tension': 'High tension as the characters navigate the challenging high-wire heist.', 'irony': None, 'foreshadowing': None, 'conflict': "Internal conflict: The characters' need to overcome personal fears and doubts during the heist."}</div>
+
+            <div style="margin: 15px 0;">
+                <strong>Themes:</strong><br>
+                <span class="tag theme-tag">Friendship</span><span class="tag theme-tag">Stealth</span><span class="tag theme-tag">Heritage Preservation</span><span class="tag theme-tag">Risk-taking</span>
+            </div>
+
+            <div style="margin: 15px 0;">
+                <strong>Props:</strong><br>
+                <span class="tag prop-tag">artifact case</span><span class="tag prop-tag">high-wire equipment</span>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Production Requirements</h2>
+        
+        <h3>Locations</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Scenes</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td><strong>EXT. City Skyline – DUSK</strong></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. Laundrette – DUSK</strong></td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td><strong>EXT. Cable Car Station – NIGHT</strong></td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. MAINTENANCE TUNNEL – NIGHT</strong></td>
+                    <td>4</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. SUBSTATION SEVEN – NIGHT</strong></td>
+                    <td>5, 9</td>
+                </tr>
+
+                <tr>
+                    <td><strong>EXT. CABLE CAR LINE – CONTINUOUS – NIGHT</strong></td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. SUBSTATION SEVEN – CONTINUOUS – NIGHT</strong></td>
+                    <td>7</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. CABLE CAR – CONTINUOUS – NIGHT</strong></td>
+                    <td>8</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. MAINTENANCE BAY – NIGHT</strong></td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td><strong>EXT. HIGH WIRE – NIGHT</strong></td>
+                    <td>11, 13</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. SECURITY OPERATIONS ROOM – NIGHT</strong></td>
+                    <td>12</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. OLD PRINTWORKS – NIGHT</strong></td>
+                    <td>14</td>
+                </tr>
+
+                <tr>
+                    <td><strong>EXT. RIVER MOUTH WALL – PRE-DAWN</strong></td>
+                    <td>15</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INT. LAUNDRETTE – MORNING</strong></td>
+                    <td>16</td>
+                </tr>
+
+                <tr>
+                    <td><strong>EXT. RIVER MOUTH WALL – SAME</strong></td>
+                    <td>17</td>
+                </tr>
+
+                <tr>
+                    <td><strong>FADE OUT.</strong></td>
+                    <td>18</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h3>Props by Scene</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Scene</th>
+                    <th>Props Required</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Scene 2</strong></td>
+                    <td>microdrone (used to gather surveillance footage for the heist)</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 3</strong></td>
+                    <td>Posters for the Centennial Gala (Advertising the city gala event)</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 4</strong></td>
+                    <td>microdrone, suction handle</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 5</strong></td>
+                    <td>laser braid, small device, 'the case' (auction's gold-packed courier)</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 6</strong></td>
+                    <td>A sleek case containing a valuable artifact</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 7</strong></td>
+                    <td>tablet, second case containing the signal harpoon, laser braid</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 8</strong></td>
+                    <td>Cable car, soda, window</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 9</strong></td>
+                    <td>The sleek case containing gold coins and the ceramic tile</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 10</strong></td>
+                    <td>bolt cutter, artifact case, iron tram car</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 11</strong></td>
+                    <td>maintenance tram, artifact case</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 12</strong></td>
+                    <td>Monitors, surveillance equipment</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 13</strong></td>
+                    <td>grapnel gun, copper bar</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 14</strong></td>
+                    <td>Artifact case, bird tile</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 15</strong></td>
+                    <td>tile, mortar, umbrella</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 16</strong></td>
+                    <td>bagels, drone (Button)</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 17</strong></td>
+                    <td>Bird tile, daisy</td>
+                </tr>
+                <tr>
+                    <td><strong>Scene 18</strong></td>
+                    <td>artifact case, high-wire equipment</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Producer Notes</h2>
+        
+        <div class="overview-grid">
+            <div class="overview-item">
+                <div class="overview-label">Total Scenes</div>
+                <div>18</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Unique Locations</div>
+                <div>6</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Estimated Shoot Days</div>
+                <div>1.8</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Production Complexity</div>
+                <div>High</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Complexity Score</div>
+                <div>65/100</div>
+            </div>
+            <div class="overview-item">
+                <div class="overview-label">Total Props</div>
+                <div>23</div>
+            </div>
+        </div>
+        
+        <h3>Shooting Schedule Breakdown</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time of Day</th>
+                    <th>Scene Count</th>
+                    <th>Scenes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>DUSK</strong></td>
+                    <td>2</td>
+                    <td>1, 2</td>
+                </tr>
+                <tr>
+                    <td><strong>NIGHT</strong></td>
+                    <td>12</td>
+                    <td>3, 4, 5, 6, 7, 8, 9, 10, 11, 12...</td>
+                </tr>
+                <tr>
+                    <td><strong>DAWN</strong></td>
+                    <td>2</td>
+                    <td>15, 16</td>
+                </tr>
+                <tr>
+                    <td><strong>DAY</strong></td>
+                    <td>2</td>
+                    <td>17, 18</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3>Production Recommendations</h3>
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #667eea;">
+            <ul style="margin: 0; padding-left: 20px;"><li>Consider extended pre-production period</li><li>Budget for additional location scouting</li><li>Plan for night shooting premiums and crew overtime</li><li>Assign dedicated props master early in pre-production</li><li>Schedule golden hour scenes carefully - limited shooting windows</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; color: #666;">
+        <p>Generated by Script Analysis Engine • November 04, 2025</p>
+    </div>
+</body>
+</html>
